@@ -1,0 +1,30 @@
+{
+  "Name": "智能日历",
+  "Description": "StreamDock 智能日历插件",
+  "com.orumad.streamdock.smartcalendar.action1": {
+    "Name": "智能日历",
+    "Tooltip": "显示当前日期，点击时打开日历应用"
+  },
+  "Category": "智能日历",
+  "Localization": {
+    "Smart Calendar Settings": "智能日历设置",
+    "Calendar URL": "日历网址",
+    "e.g., https://calendar.google.com or https://outlook.com/calendar": "例如：https://calendar.google.com 或 https://outlook.com/calendar",
+    "Quick Select": "快速选择",
+    "-- Choose a calendar service --": "-- 选择日历服务 --",
+    "Web Calendars": "网页日历",
+    "Google Calendar": "谷歌日历",
+    "Outlook Calendar": "Outlook 日历",
+    "iCloud Calendar": "iCloud 日历",
+    "Yahoo Calendar": "雅虎日历",
+    "Notion Calendar": "Notion 日历",
+    "Task Management": "任务管理",
+    "Todoist": "Todoist",
+    "Any.do": "Any.do",
+    "TickTick": "滴答清单",
+    "Custom URL": "自定义网址",
+    "Note": "注意",
+    "Due to security limitations, StreamDock plugins can only open web URLs. Local applications cannot be opened directly from plugins.": "由于安全限制，StreamDock 插件只能打开网页链接。本地应用程序无法直接从插件中打开。",
+    "Preview": "预览"
+  }
+}

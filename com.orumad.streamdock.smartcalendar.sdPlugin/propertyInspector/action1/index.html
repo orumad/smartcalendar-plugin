@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Smart Calendar - Property Inspector</title>
+    <link rel="stylesheet" href="../../static/css/sdpi.css">
+</head>
+
+<body>
+    <div class="sdpi-wrapper">
+        <div class="sdpi-heading">Smart Calendar Settings</div>
+        
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Quick Select</div>
+            <select class="sdpi-item-value" id="quickSelect">
+                <option value="">-- Choose a calendar service --</option>
+                <optgroup label="Web Calendars">
+                    <option value="https://calendar.google.com/">Google Calendar</option>
+                    <option value="https://outlook.com/calendar">Outlook Calendar</option>
+                    <option value="https://www.icloud.com/calendar">iCloud Calendar</option>
+                    <option value="https://calendar.yahoo.com/">Yahoo Calendar</option>
+                    <option value="https://www.notion.so/calendar">Notion Calendar</option>
+                </optgroup>
+                <optgroup label="Task Management">
+                    <option value="https://todoist.com/app">Todoist</option>
+                    <option value="https://app.any.do/">Any.do</option>
+                    <option value="https://www.ticktick.com/webapp/">TickTick</option>
+                </optgroup>
+                <option value="custom">Custom URL</option>
+            </select>
+        </div>
+        
+        <div class="sdpi-item" id="customUrlContainer" style="display: none;">
+            <div class="sdpi-item-label">Calendar URL</div>
+            <input class="sdpi-item-value" type="text" id="appPath" placeholder="e.g., https://calendar.google.com or https://outlook.com/calendar">
+        </div>
+        
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Note</div>
+            <div class="sdpi-item-value">
+                <small>Due to security limitations, StreamDock plugins can only open web URLs. Local applications cannot be opened directly from plugins.</small>
+            </div>
+        </div>
+        
+        <div class="sdpi-item">
+            <div class="sdpi-item-label">Preview</div>
+            <div class="sdpi-item-value">
+                <canvas id="previewCanvas" width="72" height="72" style="border: 1px solid #ccc;"></canvas>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../utils/common.js"></script>
+    <script src="../utils/action.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

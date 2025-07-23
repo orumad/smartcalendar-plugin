@@ -1,0 +1,47 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/smartcalendar-icon.png",
+      "Name": "Smart Calendar",
+      "States": [
+        {
+          "FontSize": "10",
+          "TitleAlignment": "bottom",
+          "Image": "static/smartcalendar-icon.png"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Tooltip": "Displays live date. Click to open your configured web calendar service.",
+      "UUID": "com.orumad.streamdock.smartcalendar.action1",
+      "PropertyInspectorPath": "propertyInspector/action1/index.html"
+    }
+  ],
+  "SDKVersion": 1,
+  "Author": "Orumad",
+  "Name": "Smart Calendar",
+  "Icon": "static/smartcalendar-icon.png",
+  "CodePath": "plugin/index.html",
+  "Description": "Displays current date dynamically and opens web calendar services",
+  "Category": "calendar",
+  "CategoryIcon": "static/smartcalendar-icon.png",
+  "Version": "1.0.0",
+  "URL": "https://github.com/orumad",
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    },
+    {
+      "Platform": "windows",
+      "MinimumVersion": "7"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "2.9"
+  }
+}
