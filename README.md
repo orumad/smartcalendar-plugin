@@ -2,7 +2,7 @@
 
 A StreamDock plugin that displays the current date dynamically and allows opening web calendar services with a single click.
 
-![Smart Calendar Plugin](static/smartcalendar-icon.png)
+![Smart Calendar Plugin](com.orumad.streamdock.smartcalendar.sdPlugin/static/smartcalendar-icon.png)
 
 ## Features
 
