@@ -1,11 +1,11 @@
 {
-  "Name": "智能日历",
+  "Name": "Smart Calendar",
   "Description": "StreamDock 智能日历插件",
   "com.orumad.streamdock.smartcalendar.action1": {
-    "Name": "智能日历",
+    "Name": "Smart Calendar",
     "Tooltip": "显示当前日期，点击时打开日历应用"
   },
-  "Category": "智能日历",
+  "Category": "Smart Calendar",
   "Localization": {
     "Smart Calendar Settings": "智能日历设置",
     "Calendar URL": "日历网址",

@@ -2,15 +2,13 @@
 
 A StreamDock plugin that displays the current date dynamically and allows opening web calendar services with a single click.
 
-![Smart Calendar Plugin](com.orumad.streamdock.smartcalendar.sdPlugin/static/smartcalendar-icon.png)
+![Smart Calendar Plugin](plugin-image.jpg)
 
 ## Features
 
 - **Dynamic Calendar**: Shows the current date that updates automatically every minute
-- **Attractive Visual Design**: Calendar interface with rounded corners, red header for the month, and highlighted day number
 - **Multiple Calendar Services**: Built-in support for various popular web services
-- **Simple Configuration**: Intuitive configuration interface with real-time preview
-- **Multi-language**: Support for English and Simplified Chinese
+- **Multi-language**: Support for English, Spanish, German, French, and Simplified Chinese
 
 ## Supported Calendar Services
 
@@ -31,9 +29,15 @@ You can also configure any custom web URL.
 
 ## Installation
 
-1. Download the `.streamDockPlugin` file
-2. Double-click to install it in StreamDock
-3. The plugin will appear in the "Smart Calendar" category
+1. Visit [space.key123.vip](https://space.key123.vip) - the official StreamDock plugin store
+2. Search for "Smart Calendar" or browse the Calendar category
+3. Click the install button - the plugin will be automatically downloaded and installed in your StreamDock software
+4. The plugin will appear in the "Smart Calendar" category in your StreamDock interface
+
+### Alternative Installation
+If you have the `.streamDockPlugin` file:
+1. Double-click the file to install it directly in StreamDock
+2. The plugin will appear in the "Smart Calendar" category
 
 ## Configuration
 
@@ -54,7 +58,7 @@ Due to StreamDock security limitations, plugins can only open web URLs. Local ap
 ## Technical Specifications
 
 - **Version**: 1.0.0
-- **Compatibility**: 
+- **Compatibility**:
   - macOS 10.11 or higher
   - Windows 7 or higher
 - **StreamDock**: Minimum version 2.9
@@ -81,6 +85,9 @@ com.orumad.streamdock.smartcalendar.sdPlugin/
 │   └── css/
 │       └── sdpi.css          # Interface styles
 ├── en.json                   # English translations
+├── es.json                   # Spanish translations
+├── de.json                   # German translations
+├── fr.json                   # French translations
 └── zh_CN.json               # Chinese translations
 ```
 

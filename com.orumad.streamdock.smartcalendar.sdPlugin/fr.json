@@ -1,0 +1,30 @@
+{
+  "Name": "Smart Calendar",
+  "Description": "Plugin de calendrier intelligent pour StreamDock",
+  "com.orumad.streamdock.smartcalendar.action1": {
+    "Name": "Smart Calendar",
+    "Tooltip": "Affiche la date actuelle et ouvre l'application calendrier lorsqu'il est pressé"
+  },
+  "Category": "Smart Calendar",
+  "Localization": {
+    "Smart Calendar Settings": "Paramètres du Calendrier Intelligent",
+    "Calendar URL": "URL du Calendrier",
+    "e.g., https://calendar.google.com or https://outlook.com/calendar": "ex., https://calendar.google.com ou https://outlook.com/calendar",
+    "Quick Select": "Sélection Rapide",
+    "-- Choose a calendar service --": "-- Choisissez un service de calendrier --",
+    "Web Calendars": "Calendriers Web",
+    "Google Calendar": "Google Agenda",
+    "Outlook Calendar": "Calendrier Outlook",
+    "iCloud Calendar": "Calendrier iCloud",
+    "Yahoo Calendar": "Calendrier Yahoo",
+    "Notion Calendar": "Calendrier Notion",
+    "Task Management": "Gestion des Tâches",
+    "Todoist": "Todoist",
+    "Any.do": "Any.do",
+    "TickTick": "TickTick",
+    "Custom URL": "URL Personnalisée",
+    "Note": "Remarque",
+    "Due to security limitations, StreamDock plugins can only open web URLs. Local applications cannot be opened directly from plugins.": "En raison des limitations de sécurité, les plugins StreamDock ne peuvent ouvrir que des URLs web. Les applications locales ne peuvent pas être ouvertes directement depuis les plugins.",
+    "Preview": "Aperçu"
+  }
+}

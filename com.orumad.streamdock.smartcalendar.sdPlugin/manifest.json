@@ -27,10 +27,10 @@
   "Icon": "static/smartcalendar-icon.png",
   "CodePath": "plugin/index.html",
   "Description": "Displays current date dynamically and opens web calendar services",
-  "Category": "calendar",
+  "Category": "Calendar",
   "CategoryIcon": "static/smartcalendar-icon.png",
   "Version": "1.0.0",
-  "URL": "https://github.com/orumad",
+  "URL": "https://github.com/orumad/smartcalendar-plugin",
   "OS": [
     {
       "Platform": "mac",
