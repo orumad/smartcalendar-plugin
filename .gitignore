@@ -96,6 +96,7 @@ build/
 
 # StreamDock specific
 *.streamDockPlugin
+*.sdPlugin
 
 # Backup files
 *.bak
