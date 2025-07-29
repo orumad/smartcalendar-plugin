@@ -1,26 +1,4 @@
 {
-  "Actions": [
-    {
-      "Icon": "static/smartcalendar-icon.png",
-      "Name": "Smart Calendar",
-      "States": [
-        {
-          "FontSize": "10",
-          "TitleAlignment": "bottom",
-          "Image": "static/smartcalendar-icon.png"
-        }
-      ],
-      "Controllers": [
-        "Keypad",
-        "Information"
-      ],
-      "UserTitleEnabled": false,
-      "SupportedInMultiActions": false,
-      "Tooltip": "Displays live date. Click to open your configured web calendar service.",
-      "UUID": "com.orumad.streamdock.smartcalendar.action1",
-      "PropertyInspectorPath": "propertyInspector/action1/index.html"
-    }
-  ],
   "SDKVersion": 1,
   "Author": "Orumad",
   "Name": "Smart Calendar",
@@ -43,5 +21,39 @@
   ],
   "Software": {
     "MinimumVersion": "2.9"
+  },
+  "Actions": [
+    {
+      "Icon": "static/smartcalendar-icon.png",
+      "Name": "Smart Calendar",
+      "States": [
+        {
+          "FontSize": "10",
+          "TitleAlignment": "bottom",
+          "Image": "static/smartcalendar-icon.png"
+        }
+      ],
+      "Controllers": [
+        "Keypad",
+        "Information"
+      ],
+      "UserTitleEnabled": false,
+      "SupportedInMultiActions": false,
+      "Tooltip": "Displays live date. Click to open your configured web calendar service.",
+      "UUID": "com.orumad.streamdock.smartcalendar.action1",
+      "PropertyInspectorPath": "propertyInspector/action1/index.html"
+    }
+  ],
+  "Localization": {
+    "en": "en.json",
+    "es": "es.json",
+    "de": "de.json",
+    "fr": "fr.json",
+    "zh_CN": "zh_CN.json",
+    "it": "it.json",
+    "ko": "ko.json",
+    "ja": "ja.json",
+    "pt": "pt.json",
+    "ru": "ru.json"
   }
 }
