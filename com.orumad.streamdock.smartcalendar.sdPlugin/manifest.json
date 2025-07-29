@@ -7,7 +7,7 @@
   "Description": "Displays current date dynamically and opens web calendar services",
   "Category": "Calendar",
   "CategoryIcon": "static/smartcalendar-icon.png",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "URL": "https://github.com/orumad/smartcalendar-plugin",
   "OS": [
     {
