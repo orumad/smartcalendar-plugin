@@ -1,0 +1,30 @@
+{
+  "Name": "Smart Calendar",
+  "Description": "StreamDock用スマートカレンダープラグイン",
+  "com.orumad.streamdock.smartcalendar.action1": {
+    "Name": "Smart Calendar",
+    "Tooltip": "現在の日付を表示し、押すとカレンダーアプリを開きます"
+  },
+  "Category": "Smart Calendar",
+  "Localization": {
+    "Smart Calendar Settings": "スマートカレンダー設定",
+    "Calendar URL": "カレンダーURL",
+    "e.g., https://calendar.google.com or https://outlook.com/calendar": "例：https://calendar.google.com または https://outlook.com/calendar",
+    "Quick Select": "クイック選択",
+    "-- Choose a calendar service --": "-- カレンダーサービスを選択 --",
+    "Web Calendars": "ウェブカレンダー",
+    "Google Calendar": "Googleカレンダー",
+    "Outlook Calendar": "Outlookカレンダー",
+    "iCloud Calendar": "iCloudカレンダー",
+    "Yahoo Calendar": "Yahooカレンダー",
+    "Notion Calendar": "Notionカレンダー",
+    "Task Management": "タスク管理",
+    "Todoist": "Todoist",
+    "Any.do": "Any.do",
+    "TickTick": "TickTick",
+    "Custom URL": "カスタムURL",
+    "Note": "注意",
+    "Due to security limitations, StreamDock plugins can only open web URLs. Local applications cannot be opened directly from plugins.": "セキュリティ上の制限により、StreamDockプラグインはウェブURLのみを開くことができます。ローカルアプリケーションはプラグインから直接開くことはできません。",
+    "Preview": "プレビュー"
+  }
+}

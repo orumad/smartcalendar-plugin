@@ -1,0 +1,30 @@
+{
+  "Name": "Smart Calendar",
+  "Description": "StreamDock용 스마트 캘린더 플러그인",
+  "com.orumad.streamdock.smartcalendar.action1": {
+    "Name": "Smart Calendar",
+    "Tooltip": "현재 날짜를 표시하고 누르면 캘린더 앱을 엽니다"
+  },
+  "Category": "Smart Calendar",
+  "Localization": {
+    "Smart Calendar Settings": "스마트 캘린더 설정",
+    "Calendar URL": "캘린더 URL",
+    "e.g., https://calendar.google.com or https://outlook.com/calendar": "예: https://calendar.google.com 또는 https://outlook.com/calendar",
+    "Quick Select": "빠른 선택",
+    "-- Choose a calendar service --": "-- 캘린더 서비스 선택 --",
+    "Web Calendars": "웹 캘린더",
+    "Google Calendar": "Google 캘린더",
+    "Outlook Calendar": "Outlook 캘린더",
+    "iCloud Calendar": "iCloud 캘린더",
+    "Yahoo Calendar": "Yahoo 캘린더",
+    "Notion Calendar": "Notion 캘린더",
+    "Task Management": "작업 관리",
+    "Todoist": "Todoist",
+    "Any.do": "Any.do",
+    "TickTick": "TickTick",
+    "Custom URL": "사용자 정의 URL",
+    "Note": "참고",
+    "Due to security limitations, StreamDock plugins can only open web URLs. Local applications cannot be opened directly from plugins.": "보안상의 제한으로 인해 StreamDock 플러그인은 웹 URL만 열 수 있습니다. 로컬 애플리케이션은 플러그인에서 직접 열 수 없습니다.",
+    "Preview": "미리보기"
+  }
+}
